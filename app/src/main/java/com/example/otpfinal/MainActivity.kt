@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         val context = this
         val appSignatureHelper = AppSignatureHelper(context)
-        Log.e("heyboy", "key: ${appSignatureHelper.appSignatures}")
+        Log.e("Fitnastic OTP Hashkey:", "key: ${appSignatureHelper.appSignatures}")
         startSMSRetrieverClient(context)
 
 
